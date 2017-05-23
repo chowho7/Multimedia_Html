@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Viewport" content="user-scalable=no,initial-scale=1" />
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+
+<title>mainpage</title>
+</head>
+<style> /*스타일 초기화*/
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body { background:#fff;font-family:"gothic", sans-serif;font-size:15px;color:black;line-height:100%;font-weight:bold;padding:0px;margin:0px;letter-spacing:-0px; }
+html, body { width:100%;height:100%;letter-spacing:0px; }
+div, p, ul, li, table, th, td, textarea, input, span, form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, sup {padding:0px;margin:0px;}
+ul, ol, dl, dd, dt, li { list-style-type:none;margin:0;padding:0px;line-height:100%;font-size:12px;color:#5b5b5b;letter-spacing:0px; }
+form, fieldset, p {margin:0;padding:0;border:0;}
+img {border:0;vertical-align:middle;outline:none;}
+
+
+a,a:link,a:visited,a:active{color:#575757;letter-spacing:normal; text-decoration:none; letter-spacing:-0.8px;}
+a:hover{color:#575757;text-decoration:underline;text-decoration:none;}
+</style>
+
+<style> /* 메인 스타일*/
+	#main_header {padding:40px 40px;}
+
+	#wrap {
+		background:white;
+		box-shadow:0 2px 6px rgba(100,100,100,0.3);}
+
+	.pull-left{float:left;}
+	.pull-right{float:right;}
+</style>
+
+<style>/*네비게이션 스타일*/
+	#main_navigation {
+		border-top:1px solid #C8C8C8;
+		border-bottom:1px solid #C8C8C8;
+		margin-bottom:30px;
+		height:30px;}
+
+	.outer-menu-item {
+		float:left;
+		position:relative;}
+
+	.outer-menu-item:hover {
+		background:black;
+		color:white;}
+
+	.menu-title {
+		display:black;
+		height:30px; line-height:30px;
+		text-align:center;
+		padding:5px 20px;}
+
+</style>
+
+<style>/*슬라이드 스타일*/
+	#main_slider{
+	}
+</style>
+<style> /*고정바 스타일*/
+
+
+	#right_bar{
+		background:gray;
+		position:fixed;
+		left:1100px; top:150px; bottom:250px;
+		width:120px;}
+
+</style>
+
+<body>
+<div id="wrap">
+		<header id="main_header">
+			<h1><a href="#">HTML5 Music</a></h1>
+		</header>
+		<div id="nav">
+			<nav id="main_navigation">
+				<div class="pull-left">
+					<ul class="outer-menu">
+						<li class="outer-menu-item">
+							<span class="menu-title">Ranking</span>
+						</li>
+						<li class="outer-menu-item">
+							<span class="menu-title">Recommend</span>
+						</li>
+						<li class="outer-menu-item">
+							<span class="menu-title">Genre</span>
+						</li>
+						<li class="outer-menu-item">
+							<span class="menu-title">Album</span>
+						</li>
+					</ul>
+				</div>
+				<div class="pull-right">
+					<ul class="outer-menu">
+						<li class="outer-menu-item">
+							<span class="menu-title">Login</span>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<div id="main_slider">
+			<figure>
+				<img src="highlight.jpg" alt="highlight" width="600" height="400"/>
+				<img src="blockB.jpg" alt="blockB" width="600" height="400"/> 
+				<img src="herz.jpg" alt="herz" width="600" height="400"/>
+				<img src="ali.jpg" alt="ali" width="600"height="400" />
+				<img src="IU.jpg" alt="IU" width="600" height="400"/>
+			</figure>
+		</div>
+
+	<div id="sub_album">
+
+			<div id="main_album">
+				<div class="album_1">
+					<img src="Album(1).jpg" alt="밤편지" width="150" height="150">
+					<img src="Album(2).jpg" alt="marryme" width="150" height="150">
+					<img src="Album(3).jpg" alt="knockknock" width="150" height="150">
+					<img src="Album(4).jpg" alt="fine" width="150" height="150">
+				</div>
+				<div class="album_2">
+					<img src="Album(5).jpg" alt="좋다고말해" width="150" height="150">
+					<img src="Album(6).jpg" alt="shapeofyou" width="150" height="150">
+					<img src="Album(7).jpg" alt="부담이돼" width="150" height="150">
+					<img src="Album(8).jpg" alt="오랜날오랜밤" width="150" height="150">
+				</div>
+			</div>
+
+			<div id="mini_album">
+			</div>
+	</div>
+
+	<div id="right_bar"></div>
+</div>
+
+</body>
+</html>
